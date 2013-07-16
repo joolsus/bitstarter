@@ -94,7 +94,7 @@ if(require.main == module) {
     
 
     if(program.url){
-        console.log("URL was provided");
+        //console.log("URL was provided");
         checkUrl(program.url, program.checks);
 	}
     else if(program.file){
